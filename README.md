@@ -1,18 +1,20 @@
 # Tree_maskRcnn
 <div dir="rtl">
-شناسایی درخت با یادگیری عمیق<\br>
-این ریپوزیتوری برای پایان نامه من تهیه شده است.
-<div dir="rtl">
-برای شروع پوشه
-rcnn-test *و colabnotebookssave را به درایو ریپازیتوری کولب اضاف می کنیم
-خط 2199 را از کدmodel.py باید تغییر داد
+<p>
+شناسایی درخت با یادگیری عمیق</p>
 
-`self.keras_model.metrics_tensors.append(loss)`
-تغییر به
-`self.keras_model.add_metric(loss, name)`
+<p>این ریپوزیتوری برای پایان نامه من تهیه شده است.</p>
 
-requirements موجود راباید جایگزین requirements clone شده شود
+<p>برای شروع پوشه<br />
+rcnn-test *و colabnotebookssave را به درایو ریپازیتوری کولب اضاف می کنیم<br />
+خط 2199 را از کدmodel.py باید تغییر داد</p>
 
-فایل زیر به درایو اضافه شود
+<p>`self.keras_model.metrics_tensors.append(loss)`<br />
+تغییر به<br />
+`self.keras_model.add_metric(loss, name)`</p>
 
-https://drive.google.com/file/d/1gqS6_kvf-O8EpvfLZOiZU-3bOMyolgf8/view?usp=sharing
+<p>requirements موجود راباید جایگزین requirements clone شده شود</p>
+
+<p>فایل زیر به درایو اضافه شود</p>
+
+<p>https://drive.google.com/file/d/1gqS6_kvf-O8EpvfLZOiZU-3bOMyolgf8/view?usp=sharing</p>
